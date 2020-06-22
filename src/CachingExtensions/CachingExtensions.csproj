@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>NXHub.Extensions.Caching</AssemblyName>
+    <RootNamespace>NXHub.Extensions.Caching</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>NXHub</Authors>
+    <Description>扩展 IDistributedCache 操作方法，如：cache.TrySet/GetObject("key", out var value);</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Version>0.0.1</Version>
+    <Copyright>Copyright © NXHub</Copyright>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>nxhub caching</PackageTags>
+    <PackageReleaseNotes>完成初步接口。</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="3.1.5" />
+    <PackageReference Include="System.Text.Json" Version="4.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
