@@ -1,4 +1,4 @@
-﻿namespace CachingExtensions.Demo
+﻿namespace CachingExtensions.Sample
 {
     class Blog
     {

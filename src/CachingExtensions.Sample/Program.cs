@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Caching.Distributed;
 using NXHub.Extensions.Caching;
 
-namespace CachingExtensions.Demo
+namespace CachingExtensions.Sample
 {
     class Program
     {
