@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30128.36
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CachingExtensions", "CachingExtensions\CachingExtensions.csproj", "{8DF527BE-D217-4FA2-A5B0-156C463974C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingExtensions.Demo", "CachingExtensions.Demo\CachingExtensions.Demo.csproj", "{C0DFA93B-4E88-4E21-B0B8-C2CE4B3EFC86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CachingExtensions.Sample", "CachingExtensions.Sample\CachingExtensions.Sample.csproj", "{81403AF4-596C-4873-9A2A-93FC36A51D20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{8DF527BE-D217-4FA2-A5B0-156C463974C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DF527BE-D217-4FA2-A5B0-156C463974C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DF527BE-D217-4FA2-A5B0-156C463974C0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0DFA93B-4E88-4E21-B0B8-C2CE4B3EFC86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0DFA93B-4E88-4E21-B0B8-C2CE4B3EFC86}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0DFA93B-4E88-4E21-B0B8-C2CE4B3EFC86}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0DFA93B-4E88-4E21-B0B8-C2CE4B3EFC86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81403AF4-596C-4873-9A2A-93FC36A51D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81403AF4-596C-4873-9A2A-93FC36A51D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81403AF4-596C-4873-9A2A-93FC36A51D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81403AF4-596C-4873-9A2A-93FC36A51D20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

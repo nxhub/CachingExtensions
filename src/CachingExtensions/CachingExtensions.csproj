@@ -9,12 +9,12 @@
     <Authors>NXHub</Authors>
     <Description>扩展 IDistributedCache 操作方法，如：cache.TrySet/GetObject("key", out var value);</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Copyright>Copyright © NXHub</Copyright>
     <PackageIcon>icon.png</PackageIcon>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>nxhub caching</PackageTags>
-    <PackageReleaseNotes>完成初步接口。</PackageReleaseNotes>
+    <PackageReleaseNotes>修改图标。</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/nxhub/CachingExtensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/nxhub/CachingExtensions.git</RepositoryUrl>
   </PropertyGroup>
@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\icon.png">
+    <None Include="..\..\icon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
